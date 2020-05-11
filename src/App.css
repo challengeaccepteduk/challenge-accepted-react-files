@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Ubuntu';
 }
 
 .App-logo {
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*@font-face {*/
+/*  font-family: 'Ubuntu';*/
+/*  src: local('Ubuntu'), url(./assets/Ubuntu-R.ttf) format('tff');*/
+/*}*/
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/ubuntu-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+  url('./assets/fonts/ubuntu-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('./assets/fonts/ubuntu-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('./assets/fonts/ubuntu-v14-latin-regular.woff') format('woff'), /* Modern Browsers */ url('./assets/fonts/ubuntu-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('./assets/fonts/ubuntu-v14-latin-regular.svg#Ubuntu') format('svg');/* Legacy iOS */
+}
+
+.fontTest {
+  font-family: 'Ubuntu';
 }

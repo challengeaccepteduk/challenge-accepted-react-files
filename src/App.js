@@ -1,24 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useEffect, useState} from 'react';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Home from "./screens/home/home";
+import About from "./screens/about/about";
+import Partners from "./screens/partners/partners";
+import Contact from "./screens/contact/contact";
+import 'antd/dist/antd.css';
+
 
 function App() {
+  const [width, setWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+  }, []);
+  const handleWindowSizeChange = () => {
+    setWidth(window.innerWidth);
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Switch>
+          <Route path='/about'>
+            <About width={width}/>
+          </Route>
+          <Route path='/partner'>
+            <Partners width={width} />
+          </Route>
+          <Route path='/contact'>
+            <Contact width={width} />
+          </Route>
+          <Route path='/'>
+            <Home width={width} />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
