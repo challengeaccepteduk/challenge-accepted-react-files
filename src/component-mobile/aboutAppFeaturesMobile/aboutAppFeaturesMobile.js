@@ -217,7 +217,7 @@ const AboutAppFeaturesMobile = () => {
               different ways from a scratch map for travel, a list on our phones
               for books to read that year, a squat challenge app, an app to
               track football stadiums visited, marks across our online maps for
-              restaurants we wanted to visit, together attempting to claim all 7
+              restaurants we wanted to visit, together attempting to climb all 7
               mountains around Bergen, Norway, and many more. We, like many
               people we know, have a million and one personal challenges we are
               trying to complete and had no one place to keep track of them all
