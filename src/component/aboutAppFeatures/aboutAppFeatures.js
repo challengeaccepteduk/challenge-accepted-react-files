@@ -122,16 +122,13 @@ const AboutAppFeatures = () => {
                    alt="Logo"/><br/>
           </Col>
           <Col>
-            <div className="profile-text">It started when we found ourselves actively working on loads
+            <div className="profile-text"><br/>Challenge Accepted started when we found ourselves actively working on loads
             of our own challenges and tracking them in many different ways from a scratch map for travel,
              a list on our phones for books to read that year, a 30-day squat challenge app, an app to track
              football stadiums visited, starts on our Google maps for restaurants we wanted to visit, together
               attempting to climb all 7 mountains around Bergen, and many more. Like many people we know, had a
                million and one personal challenges we were trying to complete but had no one place to keep track
                of them all, so we were unlikely to finish them or even forget we started some.
-              <br/><br/>
-              Our new challenge became creating an app to help us track and
-              therefore ultimately complete our many challenges.
             </div>
           </Col>
           <Col md={1}></Col>
@@ -140,17 +137,21 @@ const AboutAppFeatures = () => {
           <Col md={1}></Col>
 
           <Col md={1}>
-            <img className="profile-text-header-images-p" src={pencil}
+            <br/><br/><img className="profile-text-header-images-p" src={pencil}
                  alt="Logo"/>
           </Col>
           <Col>
             <div className="profile-text"><br/>
-        Steph, given her background in brand and marketing across large tech companies and a start up app,
+        Our new challenge became creating an app to help us track and
+                      therefore ultimately complete our many challenges.
+<br/><br/>
+                      Steph, given her background
+                      in brand and marketing across large tech companies and a start up app,
         took on the role of scoping the app design, defining the brand and business plan. Along the way having
          to pick up some new skills from finance and legal to brushing up photoshop skills. Paul, who has a
          background of programming at large tech, gaming, fitness and telco companies, developed the website,
           app and CMS from scratch and managed all the product testing. This required learning additional programming
-           languages and new programming skills along the way.<br/><br/>
+           languages and new programming skills along the way.<br/>
           </div>
         </Col>
           <Col md={1}></Col>
@@ -163,7 +164,7 @@ const AboutAppFeatures = () => {
           </Col>
           <Col>
             <div className="profile-text">
-              We’re currently in the testing phase and are on track to launch the app on both the Google Play Store
+              <br/>We’re currently in the testing phase and are on track to launch the Challenge Accepted app on both the Google Play Store
                and Apple app store in June 2020.
             </div>
           </Col>

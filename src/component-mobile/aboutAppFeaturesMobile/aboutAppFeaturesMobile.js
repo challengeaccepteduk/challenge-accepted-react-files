@@ -202,16 +202,13 @@ const AboutAppFeaturesMobile = () => {
         </Row>
         <Row>
           <Col>
-            <div className="profile-text-mobile">It started when we found ourselves actively working
+            <div className="profile-text-mobile">Challenge Accepted started when we found ourselves actively working
             on loads of our own challenges and tracking them in many different ways from a scratch map for travel,
              a list on our phones for books to read that year, a 30-day squat challenge app, an app to track
              football stadiums visited, starts on our Google maps for restaurants we wanted to visit, together
               attempting to climb all 7 mountains around Bergen, and many more. Like many people we know, had
               a million and one personal challenges we were trying to complete but had no one place to keep
               track of them all, so we were unlikely to finish them or even forget we started some.
-              <br/><br/>
-              Our new challenge became creating an app to help us track and
-              therefore ultimately complete our many challenges.
             </div>
           </Col>
         </Row>
@@ -223,7 +220,11 @@ const AboutAppFeaturesMobile = () => {
         </Row>
         <Row>
           <Col>
-            <div className="profile-text-mobile">Steph, given her background in brand and marketing across large tech
+            <div className="profile-text-mobile">
+             Our new challenge became creating an app to help us track and
+                therefore ultimately complete our many challenges.
+                <br/> <br/> Steph, given her background in brand and marketing across
+             large tech
              companies and a start up app, took on the role of scoping the app design, defining the brand and business
              plan. Along the way having to pick up some new skills from finance and legal to brushing up photoshop
              skills. Paul, who has a background of programming at large tech, gaming, fitness and telco companies,
@@ -241,7 +242,7 @@ const AboutAppFeaturesMobile = () => {
         <Row>
           <Col>
             <div className="profile-text-mobile"> We’re currently in the testing phase and are on
-            track to launch the app on both the Google Play Store and Apple app store in June 2020.
+            track to launch the Challenge Accepted app on both the Google Play Store and Apple app store in June 2020.
             </div>
           </Col>
         </Row>
