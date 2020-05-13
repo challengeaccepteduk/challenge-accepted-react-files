@@ -47,15 +47,9 @@ const AboutAppFeatures = () => {
         <Row className="feature-divider"></Row>
         <Row>
           <Col>
-            <p className="about-feature-header">For businesses, this means a new
-              route to talk to customers, knowing that they're talking to<br/>
-              customers who are passionate about their product or industry.
-              Businesses can partner with<br/>
-              Challenge Accepted to: create their own company challenge, sponsor
-              challenges or categories,<br/>
-              promote deals to customers that help with their passions e.g. a
-              cinema voucher to users completing<br/>
-              the Oscar nominated films challenge.</p>
+            <p className="about-feature-header">For partners, this means a new route to talk to customers knowing that we’re aligning them with users who are passionate about their product or industry. Brands can partner with
+             Challenge Accepted to create their own company challenge, sponsor challenges or categories, and promote deals to customers that help with their passions e.g. a cinema offer to help users complete a film challenge.
+            .</p>
           </Col>
         </Row>
         <Row className="feature-divider"></Row>
@@ -92,24 +86,23 @@ const AboutAppFeatures = () => {
         </Row>
         <Row>
           <Col md={2}>
-            <div className="profile-text-header"><b>Experience<br/><br/>University<br/><br/><br/>Focus
-              areas<br/><br/><br/>Challenges</b></div>
+            <div className="profile-text-header"><b>Experience<br/><br/><br/>University<br/><br/><br/>Focus
+              <br/><br/><br/>Challenges</b></div>
           </Col>
           <Col md={4}>
             <div className="profile-text">GSK, Fujitsu, TomTom, William Hill,
               Sky
               <br/><br/>Computer Science and Mathematics BSc from Bath
-              University, 2:1 Hons<br/><br/>
+              University, 2:1 Hons <br/><br/>
               Software development and test engineering<br/><br/>Daily
-              Squats<br/>Trying every Dairy milk chocolate bar<br/>Watching
+              Squats<br/>Trying every Dairy milk chocolate<br/>Watching
               every Will Smith film
             </div>
           </Col>
           <Col md={5}>
-            <div className="profile-text">Intel, EE, BT, TodayTix<br/><br/>Marketing
+            <div className="profile-text">Intel, EE, BT, TodayTix<br/><br/><br/>Marketing
               Management BA from <br/>DeMontfort University, 1st Class Hons<br/><br/>
-              App design, brand & marketing, business<br/>plan, model and
-              finance<br/><br/>30 days of Yoga with Adriene on YouTube<br/>Visiting
+              App scope & design, business development & operations, brand & marketing, finance<br/><br/>30 days of Yoga with Adriene on YouTube<br/>Visiting
               every country in Europe
               <br/>Watching every Disney animation film
             </div>
@@ -129,17 +122,13 @@ const AboutAppFeatures = () => {
                    alt="Logo"/><br/>
           </Col>
           <Col>
-            <div className="profile-text">We realised we were both actively
-              ticking off loads of our own challenges and tracking them in many
-              different ways from a scratch map for travel, a list on our phones
-              for books to read that year, a squat challenge app, an app to
-              track football stadiums visited, marks across our online maps for
-              restaurants we wanted to visit, together attempting to climb all 7
-              mountains around Bergen, Norway, and many more. We, like many
-              people we know, have a million and one personal challenges we are
-              trying to complete and had no one place to keep track of them all
-              which means we are unlikely to finish them all and even forget
-              about how many we’ve actually started.
+            <div className="profile-text">It started when we found ourselves actively working on loads
+            of our own challenges and tracking them in many different ways from a scratch map for travel,
+             a list on our phones for books to read that year, a 30-day squat challenge app, an app to track
+             football stadiums visited, starts on our Google maps for restaurants we wanted to visit, together
+              attempting to climb all 7 mountains around Bergen, and many more. Like many people we know, had a
+               million and one personal challenges we were trying to complete but had no one place to keep track
+               of them all, so we were unlikely to finish them or even forget we started some.
               <br/><br/>
               Our new challenge became creating an app to help us track and
               therefore ultimately complete our many challenges.
@@ -155,16 +144,13 @@ const AboutAppFeatures = () => {
                  alt="Logo"/>
           </Col>
           <Col>
-            <div className="profile-text">
-            Steph, given her background in brand and marketing across large
-            tech companies and a start up app, took on the role of scoping the
-            app design, defining the brand and business plan. Along the way
-            having to pick up some new learnings from financials, legal and
-            brushing up photoshop skills. Paul, who has a background of
-            programming at large tech, gaming, fitness and telco companies,
-            developed the app from scratch and has managed all the product
-            testing. This required picking up some additional programming
-            languages along the way.<br/><br/>
+            <div className="profile-text"><br/>
+        Steph, given her background in brand and marketing across large tech companies and a start up app,
+        took on the role of scoping the app design, defining the brand and business plan. Along the way having
+         to pick up some new skills from finance and legal to brushing up photoshop skills. Paul, who has a
+         background of programming at large tech, gaming, fitness and telco companies, developed the website,
+          app and CMS from scratch and managed all the product testing. This required learning additional programming
+           languages and new programming skills along the way.<br/><br/>
           </div>
         </Col>
           <Col md={1}></Col>
@@ -177,13 +163,8 @@ const AboutAppFeatures = () => {
           </Col>
           <Col>
             <div className="profile-text">
-              Alpha testing started Feb 2020. From March, Steph is working full
-              time on the app and business plan, and with lockdown in place Paul
-              is working around the clock in his spare time working on the
-              amends from alpha testing and final features added ready for Beta
-              testing in April 2020. Once we've completed our testing and fix
-              stage, we'll be ready to launch on Android and Apple store in June
-              2020.
+              We’re currently in the testing phase and are on track to launch the app on both the Google Play Store
+               and Apple app store in June 2020.
             </div>
           </Col>
           <Col md={1}></Col>
